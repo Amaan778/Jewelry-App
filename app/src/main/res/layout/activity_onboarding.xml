@@ -4,10 +4,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".onboarding.OnboardingActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:src="@drawable/boardings"
+        android:layout_margin="@dimen/_9sdp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boarding_text"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/balck_theme"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sparkle & Shine"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/gold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_margin="@dimen/_9sdp"
+        android:text="Get Started"
+        android:fontFamily="@font/poppins"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ?"
+        android:textColor="@color/balck_theme"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/gold"
+        android:gravity="center"/>
 
 </LinearLayout>
