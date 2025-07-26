@@ -1,6 +1,7 @@
 package com.app.jewelryapp.onboarding
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Button
@@ -9,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.app.jewelryapp.R
+import com.app.jewelryapp.auth.LoginActivity
+import com.app.jewelryapp.auth.RegisterActivity
 
 class OnboardingActivity : AppCompatActivity() {
     private lateinit var btn: Button
@@ -18,9 +21,18 @@ class OnboardingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboarding)
 
-       if (restore()){
+        btn=findViewById(R.id.sign_in)
 
+       if (restore()){
+           startActivity(Intent(this,RegisterActivity::class.java))
+           finish()
        }
+
+        btn.setOnClickListener {
+            startActivity(Intent(this,RegisterActivity::class.java))
+            finish()
+            saved()
+        }
 
     }
 
