@@ -4,8 +4,87 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".auth.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/balck_theme"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_tagline"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:layout_marginHorizontal="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncurve"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:padding="@dimen/_9sdp"
+        android:hint="Enter your name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:layout_marginHorizontal="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncurve"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:padding="@dimen/_9sdp"
+        android:hint="Enter your name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:layout_marginHorizontal="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncurve"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:padding="@dimen/_9sdp"
+        android:hint="Enter your name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_margin="@dimen/_9sdp"
+        android:text="Register"
+        android:fontFamily="@font/poppins"/>
 
 </LinearLayout>
