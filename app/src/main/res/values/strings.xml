@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">JewelryApp</string>
     <string name="boarding_text">Your Ultimate Destination for</string>
+    <string name="register_tagline">Fill your information below or register your account</string>
 </resources>
