@@ -61,7 +61,7 @@
         android:background="@drawable/btncurve"
         android:layout_marginHorizontal="@dimen/_9sdp"
         android:padding="@dimen/_9sdp"
-        android:hint="Enter your name"/>
+        android:hint="Enter your email"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
         android:background="@drawable/btncurve"
         android:layout_marginHorizontal="@dimen/_9sdp"
         android:padding="@dimen/_9sdp"
-        android:hint="Enter your name"/>
+        android:hint="Enter your password"/>
 
     <Button
         android:layout_width="match_parent"
