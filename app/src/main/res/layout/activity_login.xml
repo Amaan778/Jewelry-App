@@ -6,6 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
     tools:context=".auth.LoginActivity">
 
     <TextView
@@ -25,5 +27,46 @@
         android:fontFamily="@font/poppins"
         android:gravity="center"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:layout_marginHorizontal="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncurve"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:padding="@dimen/_9sdp"
+        android:hint="Enter your name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password : "
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:layout_marginHorizontal="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncurve"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:padding="@dimen/_9sdp"
+        android:hint="Enter your email"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_margin="@dimen/_9sdp"
+        android:text="Sign In"
+        android:fontFamily="@font/poppins"/>
 
 </LinearLayout>
