@@ -8,4 +8,22 @@
     android:layout_height="match_parent"
     tools:context=".auth.LoginActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/balck_theme"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_tagline"
+        android:textColor="@color/balck_theme"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"/>
+
+
 </LinearLayout>
